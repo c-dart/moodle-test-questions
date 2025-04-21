@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <!-- Question 1 -->
+  <question type="multichoice">
+    <name>
+      <text>Capital of France</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[What is the capital of France?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The capital of France is Paris.]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text><![CDATA[Paris]]></text>
+      <feedback><text>Correct!</text></feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[London]]></text>
+      <feedback><text>Nope, that's the UK.</text></feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Berlin]]></text>
+      <feedback><text>Wrong country.</text></feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Madrid]]></text>
+      <feedback><text>That's Spain.</text></feedback>
+    </answer>
+  </question>
+</quiz>
